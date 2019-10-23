@@ -1,0 +1,17 @@
+{
+  "name": "mysql-project",
+  "version": "1.0.0",
+  "description": "mysql的测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "keywords": [
+    "mysql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mysql": "^2.17.1"
+  }
+}

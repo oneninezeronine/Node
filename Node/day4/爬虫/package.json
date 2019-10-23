@@ -1,0 +1,21 @@
+{
+  "name": "crawel",
+  "version": "1.0.0",
+  "description": "爬虫项目",
+  "main": "http.js",
+  "scripts": {
+    "test": "node http"
+  },
+  "keywords": [
+    "爬虫"
+  ],
+  "author": "eno",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "jsdom": "^15.2.0",
+    "request": "^2.88.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "gulp-project",
+  "version": "5.2.0",
+  "description": "这是一个GULP的项目",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index",
+    "start": "dir"
+  },
+  "keywords": [
+    "gulp",
+    "打包"
+  ],
+  "author": "eno",
+  "license": "ISC"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mongodb-project",
+  "version": "1.0.0",
+  "description": "mongodb测试项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index",
+    "start": "mongod --dbpath C:/Code/1909/Node/day6/database"
+  },
+  "keywords": [
+    "mongodb",
+    "database"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mongodb": "^3.3.3"
+  }
+}

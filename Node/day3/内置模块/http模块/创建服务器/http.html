@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        setInterval(() => {
+            var msgLength = document.querySelectorAll('.js_message_plain').length
+            var msg = document.querySelectorAll('.js_message_plain')[msgLength - 1].innerText
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = () => {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    console.log(xhr.responseText)
+                }
+            }
+            // 请求头
+            // xhr.setRequestHeader
+            xhr.open("GET", `http://localhost:3000?msg=${msg}`, true)
+            // 请求体
+            xhr.send(null)
+        }, 1000)
+
+    </script>
+</body>
+
+</html>

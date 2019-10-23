@@ -1,0 +1,14 @@
+<template name="component-name">
+    <div>
+        abc
+        <p>123</p>
+    </div>
+</template>
+<style>
+p{
+    color:red;
+}
+span{
+    font-size:14px;
+}
+</style>
